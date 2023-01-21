@@ -13,7 +13,8 @@
 [![Docker](https://img.shields.io/badge/-Docker-2B97E9?style=for-the-badge&logo=Docker&logoColor=FFFFFF)](https://www.docker.com/)
 
 
-# Как запустить проект:
+<details>
+<summary><h2>Как запустить проект:</h2></summary>
 
 ## *Клонировать репозиторий:*
 - `git clone https://github.com/EgorGushin/mapnn.git`
