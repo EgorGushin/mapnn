@@ -17,7 +17,7 @@
 <summary><h2>Как запустить проект:</h2></summary>
 
 ## *Клонировать репозиторий:*
-- `git clone https://github.com/EgorGushin/mapnn.git`
+    git clone https://github.com/EgorGushin/mapnn.git
 
 ## *Собираем контейнер:*
 ### Запустите команду в корневой папке проекта:
