@@ -1,7 +1,7 @@
 import folium
+import pandas as pd
 from django.shortcuts import render
 from folium.plugins import MousePosition
-import pandas as pd
 
 
 def create_map(request):
