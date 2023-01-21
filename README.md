@@ -8,26 +8,19 @@
 Дополнительно: добавьте элементы управления картой (отображение или скрытие элемента на карте, управление слоями).
 
 # Технологии:
-- Python 3.7, Django 3.2.16, Folium 0.14.0
+[![Python](https://img.shields.io/badge/-Python-3775A9?style=for-the-badge&logo=Python&logoColor=FFD142)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-113228?style=for-the-badge&logo=Django)](https://www.djangoproject.com/)
+[![Docker](https://img.shields.io/badge/-Docker-2B97E9?style=for-the-badge&logo=Docker&logoColor=FFFFFF)](https://www.docker.com/)
+
 
 # Как запустить проект:
 
 ## *Клонировать репозиторий:*
-- `git clone https://github.com/EgorGushin/infra_sp2.git`
+- `git clone https://github.com/EgorGushin/mapnn.git`
 
 ## *Собираем контейнер:*
-### Запустите команду в папке infra_sp2/infra:
-    docker-compose up -d --build
+### Запустите команду в корневой папке проекта:
+    docker-compose up -d
 
-#### Создайте суперпользователя
-    docker-compose exec web python manage.py createsuperuser
-
-## Шаблон наполнения .env- файла:
-
-DB_ENGINE - указываем, что работаем с postgresql
-DB_NAME - имя базы данных
-POSTGRES_USER - логин для подключения к базе данных
-POSTGRES_PASSWORD - пароль для подключения к БД (установите свой)
-DB_HOST - название сервиса (контейнера)
-DB_PORT - порт для подключения к БД
-
+#### Откройте в браузере ссылку:
+    http://localhost:8000
